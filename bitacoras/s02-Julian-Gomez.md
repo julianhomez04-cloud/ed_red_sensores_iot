@@ -155,7 +155,7 @@ Usé `Double\[]\[]`: `null` = no reportó y `0.0` = midió cero. Descarté (a) l
 
 **5. ¿Sirve `buscarPorEstacion()` con 8.000 estaciones?**
 
-Con 8.000 estaciones × 24 horas hay 192.000 lecturas. Una búsqueda en el peor caso (estación inexistente) hace **192.000 comparaciones**, unas 955 veces más que las 201 de hoy. En el experimento (`--escala`) tardó unos 9,6 ms en mi computador (9.419, 9.722 y 9.637 microsegundos en tres ejecuciones). Para una consulta aislada todavía es tolerable. Pero si se consulta cada estación una vez (8.000 búsquedas) son 8.000 × 192.000 = **1.536.000.000 comparaciones**, y ahí deja de ser adecuada. Es la pregunta de la Semana 3. La matriz, en cambio, accede a una celda por índice en un solo paso.
+Con 8.000 estaciones × 24 horas hay 192.000 lecturas. Una búsqueda en el peor caso (estación inexistente) hace **192.000 comparaciones**, unas 955 veces más que las 201 de hoy. En el experimento (`--escala`)   tardó entre 9,4 y 11,2 ms en mi computador (9.419, 9.722 y 9.637 microsegundos en tres ejecuciones, y 11.163 en la ejecución que quedó guardada en `docs/evidencia-s02.txt`).. Para una consulta aislada todavía es tolerable. Pero si se consulta cada estación una vez (8.000 búsquedas) son 8.000 × 192.000 = **1.536.000.000 comparaciones**, y ahí deja de ser adecuada. Es la pregunta de la Semana 3. La matriz, en cambio, accede a una celda por índice en un solo paso.
 
 ## Lista de verificacion antes de entregar
 
