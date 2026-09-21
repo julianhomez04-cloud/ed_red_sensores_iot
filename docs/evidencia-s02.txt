@@ -1,8 +1,4 @@
-EVIDENCIA DE EJECUCION - SEMANA 2 (datos reales: data/lecturas_ampliadas.csv)
-Compilacion:   javac -d out src/*.java
-======================================================================
-1) java -cp out PruebasRepositorio
-======================================================================
+=== PRUEBAS === 
 Caso 1 - Agregar
   [OK]    repositorio nuevo esta vacio
   [OK]    agregar lectura valida devuelve true
@@ -66,10 +62,7 @@ Caso 6 - Matriz (ausencia != 0.0)
   [OK]    una lectura repetida sobrescribe la celda y se cuenta
 
 Resultado: 55 pruebas OK, 0 fallidas
-
-======================================================================
-2) cd data && java -cp ../out IngestaSensores   (ingesta del profesor + repositorio completo)
-======================================================================
+=== INGESTA (IngestaSensores) === 
 
 === INGESTA ===
 Lecturas almacenadas:      201
@@ -79,34 +72,31 @@ Descartadas por rango:     8
 PM2.5 promedio (repositorio): 17.050746268656724
 
 === PERFIL HORARIO DE LA CIUDAD ===
-Hora 00 -> PM2.5 promedio: 12.48
-Hora 01 -> PM2.5 promedio: 12.71
-Hora 02 -> PM2.5 promedio: 11.21
-Hora 03 -> PM2.5 promedio: 12.22
-Hora 04 -> PM2.5 promedio: 12.53
-Hora 05 -> PM2.5 promedio: 10.69
-Hora 06 -> PM2.5 promedio: 29.96
-Hora 07 -> PM2.5 promedio: 29.44
-Hora 08 -> PM2.5 promedio: 30.99
-Hora 09 -> PM2.5 promedio: 11.18
-Hora 10 -> PM2.5 promedio: 12.15
-Hora 11 -> PM2.5 promedio: 11.34
-Hora 12 -> PM2.5 promedio: 11.83
-Hora 13 -> PM2.5 promedio: 12.53
-Hora 14 -> PM2.5 promedio: 12.24
-Hora 15 -> PM2.5 promedio: 11.14
-Hora 16 -> PM2.5 promedio: 11.60
-Hora 17 -> PM2.5 promedio: 33.51
-Hora 18 -> PM2.5 promedio: 34.01
-Hora 19 -> PM2.5 promedio: 33.21
-Hora 20 -> PM2.5 promedio: 11.47
-Hora 21 -> PM2.5 promedio: 12.48
-Hora 22 -> PM2.5 promedio: 12.04
-Hora 23 -> PM2.5 promedio: 12.33
-
-======================================================================
-3) java -cp out Experimento data/lecturas_ampliadas.csv --escala
-======================================================================
+Hora 00 -> PM2.5 promedio: 12,48
+Hora 01 -> PM2.5 promedio: 12,71
+Hora 02 -> PM2.5 promedio: 11,21
+Hora 03 -> PM2.5 promedio: 12,22
+Hora 04 -> PM2.5 promedio: 12,53
+Hora 05 -> PM2.5 promedio: 10,69
+Hora 06 -> PM2.5 promedio: 29,96
+Hora 07 -> PM2.5 promedio: 29,44
+Hora 08 -> PM2.5 promedio: 30,99
+Hora 09 -> PM2.5 promedio: 11,18
+Hora 10 -> PM2.5 promedio: 12,15
+Hora 11 -> PM2.5 promedio: 11,34
+Hora 12 -> PM2.5 promedio: 11,83
+Hora 13 -> PM2.5 promedio: 12,53
+Hora 14 -> PM2.5 promedio: 12,24
+Hora 15 -> PM2.5 promedio: 11,14
+Hora 16 -> PM2.5 promedio: 11,60
+Hora 17 -> PM2.5 promedio: 33,51
+Hora 18 -> PM2.5 promedio: 34,01
+Hora 19 -> PM2.5 promedio: 33,21
+Hora 20 -> PM2.5 promedio: 11,47
+Hora 21 -> PM2.5 promedio: 12,48
+Hora 22 -> PM2.5 promedio: 12,04
+Hora 23 -> PM2.5 promedio: 12,33
+=== EXPERIMENTO === 
 
 ==================================================
 FASE 1 - Diagnostico (arreglo de capacidad fija = 10)
@@ -211,7 +201,5 @@ Estacion mas contaminada: EST-003 (17.86)
 EXPERIMENTO - 8.000 estaciones x 24 horas
 ==================================================
 Lecturas almacenadas: 192000
-Peor caso de buscarPorEstacion: 192000 comparaciones (~20593 microsegundos en este equipo)
+Peor caso de buscarPorEstacion: 192000 comparaciones (~11163 microsegundos en este equipo)
 Si se consulta cada estacion una vez (peor caso): 1536000000 comparaciones
-
-Nota: el tiempo (microsegundos) del experimento de escala cambia en cada equipo; las comparaciones no.
