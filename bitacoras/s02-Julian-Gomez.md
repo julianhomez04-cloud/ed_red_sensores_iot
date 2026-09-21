@@ -1,6 +1,6 @@
 # Bitacora individual - Semana 02
 
-
+> \*\*BORRADOR.\*\* Solo falta completar los hashes de los commits (sección 9), que tendrás cuando subas el trabajo a GitHub. Lee todo y cambia cualquier frase que no describa lo que tú de verdad pensaste o hiciste: la bitácora es individual y el profesor puede preguntarte por cualquier parte.
 
 ## 1\. Datos de la actividad
 
@@ -44,7 +44,7 @@ Como no escribí una predicción antes de ejecutar, no puedo comparar lo esperad
 
 ## 4\. Explicacion en lenguaje llano
 
- Un arreglo es como una fila de casillas numeradas que se compra con un tamaño fijo. Cuando se llenan, no se pueden agregar casillas: hay que comprar una fila más grande y pasar todo lo que había. Y si una casilla está vacía porque nadie midió, no se puede escribir "0", porque cero también es una medida real; hay que dejarla marcada como "sin dato".
+> \*\*Borrador — reescríbelo con tus palabras.\*\* Un arreglo es como una fila de casillas numeradas que se compra con un tamaño fijo. Cuando se llenan, no se pueden agregar casillas: hay que comprar una fila más grande y pasar todo lo que había. Y si una casilla está vacía porque nadie midió, no se puede escribir "0", porque cero también es una medida real; hay que dejarla marcada como "sin dato".
 
 ### Ejemplo o analogia
 
@@ -108,8 +108,8 @@ Un commit es cada vez que guardé cambios en GitHub. Cada uno tiene un mensaje y
 
 |Commit|Mensaje|Que demuestra|
 |-|-|-|
-`S02: agrega codigo del repositorio, la matriz y las pruebas`|Carpeta `src`: `RepositorioLecturas`, `AnalizadorMatriz`, pruebas y experimento|
-`S02: agrega documentacion y evidencia`|Carpetas `docs` y `data` y el `README.md`: contrato, decisiones y evidencia de ejecución|
+|✍ `\[hash 1]`|`S02: agrega codigo del repositorio, la matriz y las pruebas`|Carpeta `src`: `RepositorioLecturas`, `AnalizadorMatriz`, pruebas y experimento|
+|✍ `\[hash 2]`|`S02: agrega documentacion y evidencia`|Carpetas `docs` y `data` y el `README.md`: contrato, decisiones y evidencia de ejecución|
 
 ## 10\. Reexplicacion final
 
