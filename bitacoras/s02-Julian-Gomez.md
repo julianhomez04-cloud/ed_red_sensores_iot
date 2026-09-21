@@ -113,7 +113,7 @@ Un commit es cada vez que guardé cambios en GitHub. Cada uno tiene un mensaje y
 
 ## 10\. Reexplicacion final
 
-> \*\*Borrador — reescríbelo con tus palabras.\*\* Los datos viven en un repositorio que promete operaciones (guardar, buscar, cambiar, borrar, contar) y esconde que por dentro es un arreglo. Como un arreglo tiene techo, lo hice crecer duplicándose: 310 copias en lugar de 20.055. Y como una celda vacía no es un cero, guardé las ausencias como `null` para que EST-003 no pareciera normal cuando en realidad es la estación más contaminada.
+ Los datos viven en un repositorio que promete operaciones (guardar, buscar, cambiar, borrar, contar) y esconde que por dentro es un arreglo. Como un arreglo tiene techo, lo hice crecer duplicándose: 310 copias en lugar de 20.055. Y como una celda vacía no es un cero, guardé las ausencias como `null` para que EST-003 no pareciera normal cuando en realidad es la estación más contaminada.
 
 ## 11\. Reflexion individual
 
